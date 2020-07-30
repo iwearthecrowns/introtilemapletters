@@ -1,0 +1,129 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="gamesettilemap"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><comment pinned="true" h="68" w="363" relx="-412" rely="-59">Sets tile map to teal, yellow, lime, and blue pixels</comment><value name="map"><shadow type="tilemap_image_picker"><field name="img">img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . 6 5 7 8 . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+`</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="72" w="364" relx="-410" rely="-48">Sets any red tiles to an image of the letter H</comment><value name="index"><shadow type="colorindexpicker"><field name="index">2</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 1 1 1 1 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="67" w="360" relx="-409" rely="-33">Sets any pink tiles to an image of the letter E</comment><value name="index"><shadow type="colorindexpicker"><field name="index">3</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 1 1 1 f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="59" w="362" relx="-410" rely="-24">Sets any teal tiles to an image of the letter W</comment><value name="index"><shadow type="colorindexpicker"><field name="index">6</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f 1 f f 1 1 f f 1 f f f f 
+f f f f 1 f 1 f f 1 f 1 f f f f 
+f f f f 1 1 f f f f 1 1 f f f f 
+f f f f 1 f f f f f f 1 f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="65" w="362" relx="-412" rely="-24">Sets any yellow tiles to an image of the letter O</comment><value name="index"><shadow type="colorindexpicker"><field name="index">5</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 f f f f f 1 f f f f f 
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="65" w="360" relx="-412" rely="-19">Sets any orange tiles to an image of the letter L</comment><value name="index"><shadow type="colorindexpicker"><field name="index">4</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 f f f f f f f f f f f 
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="61" w="364" relx="-410" rely="-14">Sets any lime tiles to an image of the letter R</comment><value name="index"><shadow type="colorindexpicker"><field name="index">7</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f 1 1 1 1 f f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 1 1 1 1 f f f f f f 
+f f f f f 1 f f 1 f f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f 1 f f f 1 f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value><next><block type="gamesettile"><comment pinned="true" h="67" w="367" relx="-410" rely="-12">Sets any blue tiles to an image of the letter D</comment><value name="index"><shadow type="colorindexpicker"><field name="index">8</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f 1 1 1 1 1 f f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 f f f f 1 f f f f f f 
+f f f f 1 1 1 1 1 f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
